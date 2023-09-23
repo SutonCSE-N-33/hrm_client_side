@@ -1,0 +1,20 @@
+.tbl-head {
+    width:934px !important;
+}
+.clm1 {
+    border: 1px solid rgb(143, 159, 188);
+    width: calc(100% / 5);
+  }
+
+  @media all and (max-width:500px){
+    .payroll-sheet{
+        
+    }
+    .tbl-head {
+        width:650px !important;
+    }
+    .clm1 {
+        border: 1px solid rgb(143, 159, 188);
+        width: calc(100% / 5);
+      }
+  }

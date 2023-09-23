@@ -1,0 +1,13 @@
+.sidebar{
+    position:fixed;
+}
+@media all and (max-width:500px){
+    .sidebar{
+      width:500px !important;
+      transform: translate(200px) !important;
+      position:fixed;
+    }
+    .sidebar ul li{
+        font-size: 10px !important;
+    }
+}

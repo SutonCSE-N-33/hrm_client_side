@@ -1,0 +1,5 @@
+.payment-list{
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    margin-top: 20px;
+}

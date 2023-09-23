@@ -1,0 +1,25 @@
+.responsive-menu{
+    display:none;
+}
+@media all and (max-width:500px){
+    .responsive-menu{
+        display:block;
+        width:500px;
+        background-color: rgb(5, 42, 246) !important;
+        padding:5px 3px;
+        transform: translate(-50px,-50px) ;
+    }
+    .responsive-menu ul{
+        display:flex;
+        transform: translate(-30px,5px) !important;
+    }
+    .responsive-menu ul li{
+        margin-left:5px !important;
+        font-size: 12px;
+        font-weight: 700;
+        cursor:pointer;
+    }
+    .link-color{
+        color:white !important;
+    }
+}

@@ -1,0 +1,59 @@
+
+.requirementModal{
+   width: 900px !important;
+   height:210px;
+   background-color: #0C4A6E;
+   color:white;
+}
+.requirement-form{
+   margin-top:40px;
+   border:1px solid black;
+   border-radius: .5rem;
+   padding:30px 10px;
+   width:770px;
+}
+.requirement-field{
+    margin-left:20px;
+    padding:10px 30px;
+    color:black;
+}
+.req-subBtn{
+    transform: translate(800px,40px);
+    border: 1px solid crimson;
+    font-weight: 700;
+    color:white;
+    padding: 10px 10px;
+    border-radius: .5rem;
+    cursor:pointer;
+}
+.rClosed-btn{
+    font-size: 30px;
+    transform: translate(850px,-20px);
+    cursor:pointer;
+}
+
+@media all and (max-width:500px){
+      .requirementModal-1{
+        width:400px;
+        transform:translate(20px,0px) !important;
+      }
+      .requirement-field{
+        text-align: left !important;
+        font-size: 10px;
+        width:100px;
+      }
+      .req-subBtn{
+        transform: translate(300px,40px);
+        border: 1px solid crimson;
+        font-weight: 700;
+        color:white;
+        padding: 10px 10px;
+        border-radius: .5rem;
+        cursor:pointer;
+    }
+    .rClosed-btn{
+        font-size: 30px;
+        transform: translate(350px,-30px);
+        cursor:pointer;
+    }
+}

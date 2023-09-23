@@ -1,0 +1,39 @@
+.hierarchy-table{
+    width:100%;
+}
+.hierarchy-table thead{
+    background-color: aqua;
+    color:white;
+    text-align: center;
+    
+}
+.hierarchy-table thead th{
+    padding: 10px 10px;
+}
+
+.hierarchy-table tbody{
+    background-color: rgb(23, 9, 84);
+    color:white;
+    text-align: center;
+    
+}
+.hierarchy-table  tbody tr td{
+    padding: 6px 6px;
+}
+.hierarchy-table  tbody tr td select{
+    background-color: rgb(23, 9, 84);
+    color:white; 
+}
+
+
+
+@media all and (max-width:500px){
+    .hierarchy-table{
+        width:420px;
+        transform: translateX(-40px);
+    }
+
+    .hierarchy-table thead th{
+        padding: 5px 5px;
+    }
+ }

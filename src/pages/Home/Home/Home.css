@@ -1,0 +1,65 @@
+.responsive-menu{
+    display:none;
+}
+.card-value{
+    font-size: 42px !important;
+}
+@media all and (max-width:500px){
+    .home-header{
+        width:800px;
+    }
+    .card{
+        width:450px !important;
+        display: inline-block;
+        transform: translate(-8px);
+    }
+    .card-body{
+        
+    }
+    .card-title{
+        font-size: 18px;
+    }
+    .card-value{
+        font-size: 50px;
+        
+    }
+    .employees-btn{
+        width:150px;
+        height: 30px;
+        font-size: 10px !important;
+        transform: translateY(0px);
+    }
+    .recent-attendance{
+        width:50px !important;
+        height: 100px !important;
+        transform: translate(0px,10px);
+    }
+    .announcement-btn{
+        transform: translate(0px,120px) !important;
+    }
+    .dept-banner{
+        width:330px;
+        height: 300px;
+        margin-left: -30px !important;
+        transform: translate(-10px,-5px) !important;
+    }
+
+    .responsive-menu{
+        display:block;
+        width:500px;
+        background-color: green;
+        padding:5px 3px;
+        transform: translate(-50px,-50px);
+    }
+    .responsive-menu ul{
+        display:flex;
+        transform: translate(-10px,5px);
+    }
+    .responsive-menu ul li{
+        margin-left: 10px;
+        font-size: 12px;
+        color:white;
+        font-weight: 700;
+        cursor:pointer;
+    }
+}

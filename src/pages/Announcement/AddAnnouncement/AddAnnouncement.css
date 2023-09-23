@@ -1,0 +1,10 @@
+@media all and (max-width:500px){
+    .announcement-input-card{
+        width:190px !important;
+        margin-left: -30px;
+        margin-top: -10px;
+    }
+    .announcement-input-card label input{
+        height: 40px;
+    }
+ }

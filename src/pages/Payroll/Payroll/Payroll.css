@@ -1,0 +1,97 @@
+.payroll-container .card {
+    border-radius: 5px !important;
+  }
+  
+  .card input {
+    border-radius: 5px !important;
+  }
+  
+  .payroll-sheet .table-row span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .table-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .clm {
+    border: 1px solid rgb(143, 159, 188);
+    width: calc(100% / 7);
+  }
+  
+  .name {
+    position: relative;
+    transition: all 0.5s;
+  }
+  
+  .name .icon {
+    display: none;
+    transition: all 0.5s;
+  }
+  
+  .name:hover .icon {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: rgb(41, 48, 83);
+  }
+  
+  .name .icon::before {
+    position: absolute;
+    width: 100%;
+    top: -23px;
+    right: 0;
+    left: 0;
+    content: "Make Payment";
+    background: rgb(192, 194, 207);
+  }
+  .name .icons::before {
+    position: absolute;
+    width: 100%;
+    top: -23px;
+    right: 0;
+    left: 0;
+    content: " ";
+    background: rgb(192, 194, 207);
+  }
+  .search-btn{
+    border-right:1px solid black;
+    padding:7px 8px;
+    transform:translate(-30px,32px);
+    background-color: crimson;
+    color:white;
+  }
+  
+
+  @media all and (max-width:500px){
+    .payroll-card{
+      width:400px;
+      margin-left: -30px;
+    }
+    .search-btn{
+      border-right:1px solid black;
+      padding:7px 8px;
+      transform:translate(-5px,12px);
+      background-color: crimson;
+      color:white;
+    }
+    .payroll-sheet{
+      width:650px;
+      transform: translateX(-40px);
+      overflow-wrap: inherit;
+    }
+    .payroll-sheet .table-row span {
+      font-size: 11px;
+      font-weight: bold;
+    }
+    .clm div {
+      font-size: 10px;
+    }
+  }

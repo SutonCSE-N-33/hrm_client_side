@@ -1,0 +1,41 @@
+@media all and (max-width:500px){
+    .direction{
+        margin-left: -25px;
+    }
+    .employees-banner{
+        width:400px;
+        height: 500px;
+        padding:0px;
+        transform: translate(-30px);
+    }
+    .emp-title{
+       margin-top: -30px;
+       margin-left: -40px;
+    }
+    .add-btn{
+       transform: translate(35px,-30px) !important;
+    }
+    .employee-list{
+        width:400px;
+        margin-left: -40px;
+    }
+    table thead tr th{
+        font-size: 10px;
+    }
+    table tbody tr td{
+        font-size: 13px;
+        
+    }
+    .th-1{
+        transform: translate(-60px);
+    }
+    .td-1{
+        transform: translate(-60px);
+    }
+    .editIcon{
+        font-size: 15px !important;
+    }
+    .deleteIcon{
+        font-size: 15px !important;
+    }
+}

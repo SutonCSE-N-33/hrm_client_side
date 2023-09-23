@@ -1,0 +1,79 @@
+.addNew-btn{
+    border:1px solid black;
+    color:white;
+    font-weight: 700;
+    background-color: crimson;
+    padding:5px 5px;
+}
+.identity-input-card{
+    width:300px !important;
+    margin-top: 20px;
+  }
+  .sub-identity-card{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+
+@media all and (max-width:500px){
+    .overtime-head{
+            margin-left: -25px;
+        }
+      .employee-input-card{
+        width:190px !important;
+        margin-left: -40px !important;
+      }
+      .last-input-card{
+        transform: translate(70px,0px);
+      }
+      .contact-input-card{
+        transform:translateY(-20px)
+      }
+      .employee-card{
+        transform: translate(-60px,128px);
+      }
+     
+    .gender-input-card{
+        transform: translate(70px,120px);
+    }
+    .email-input-card{
+        transform: translate(-255px,475px);
+       }
+    .shift-input-card{
+        transform: translate(0px,-28px);
+        height: 100px;
+    }
+      .department-input-card{
+        width:300px !important;
+        transform: translate(-125px,100px);
+        height: 100px;
+      }
+      .designation-input-card{
+            transform: translate(-53px,217px);
+      }
+      .role-input-card{
+           transform: translate(0px,70px);
+      }
+      .profile-input-card{
+        transform: translate(-125px,290px);
+        width:400px !important;
+      }
+      .salary-input-card{
+        transform: translate(-55px,182px);
+      }
+      .identity-input-card{
+        transform: translate(5px,300px);
+      }
+      .sub-identity-card{
+        transform: translate(55px,300px);
+        width:215px !important;
+      }
+      .employee-btn{
+        transform: translate(-35px,270px) !important;
+        border: 2px solid crimson;
+        border-radius: 10px;
+        width:100px;
+        font-weight: 700 !important;
+      }
+    
+     }

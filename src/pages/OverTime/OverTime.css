@@ -1,0 +1,50 @@
+@media all and (max-width:500px){
+    .overtime-head{
+            margin-left: -25px;
+        }
+      .overtime-input-card{
+        width:190px !important;
+        margin-left: -25px;
+      }
+      .overtime-input-card select{
+             width:170px;
+      }
+      .overtime-employee-card{
+        transform: translate(70px,0px);
+      }
+      .overtime-date-card{
+        transform: translate(-255px,120px);
+      }
+      .overtime-inTime-card{
+            transform: translate(200px,-25px);
+      }
+      .overtime-outTime-card{
+           transform: translate(-130px,80px);
+      }
+      .overtime-reason-card{
+        transform: translate(-55px,80px);
+      }
+      .overtime-btn{
+        transform: translate(-25px,40px);
+        border: 2px solid crimson;
+        border-radius: 10px;
+        width:100px;
+        font-weight: 700 !important;
+      }
+    
+      .attendanceList{
+        width:700px;
+        overflow: scroll;
+        transform:translate(-20px,10px)
+      }
+      .title{
+        display:flex;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        
+      }
+      .colum{
+       width:100px !important;
+       font-size: 12px;
+    }
+     }

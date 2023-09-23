@@ -1,0 +1,84 @@
+.colum{
+    border: 1px solid rgb(12 74 110);
+}
+
+.title{
+    display: flex !important;
+}
+.attribute{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(12 74 110);
+    width:130px !important;
+}
+
+
+.value{
+    font-size: 15px;
+}
+
+.icon{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icon{
+    color: rgb(12 74 110);
+}
+
+.editIcon{
+    color: green
+}
+
+.deleteIcon{
+    color: #e11d48;
+}
+
+
+@media all and (max-width:500px){
+.attendance-head{
+        margin-left: -25px;
+    }
+  .attendance-input-card{
+    width:190px !important;
+    margin-left: -25px;
+  }
+  .attendance-input-card select{
+         width:170px;
+  }
+  .attendance-employee-card{
+    transform: translate(70px,0px);
+  }
+  .attendance-date-card{
+    transform: translate(-255px,120px);
+  }
+  .attendance-inTime-card{
+        transform: translate(200px,-25px);
+  }
+  .attendance-outTime-card{
+       transform: translate(-125px,80px);
+  }
+  .attendance-btn{
+    transform: translate(-20px,40px);
+    border: 2px solid crimson;
+    border-radius: 10px;
+    width:100px;
+    font-weight: 700 !important;
+  }
+
+  .attendanceList{
+    width:700px;
+    overflow: scroll;
+    transform:translate(-20px,10px)
+  }
+  .title{
+    display:flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    
+  }
+  .colum{
+   width:100px !important;
+   font-size: 12px;
+}
+ }

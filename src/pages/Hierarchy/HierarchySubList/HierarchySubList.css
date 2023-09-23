@@ -1,0 +1,39 @@
+.edit-department{
+    transform: translate(60px,-20px);
+}
+.departmentEditBtn{
+    transform:translate(0px,-5px)
+}
+.designation{
+    transform: translate(110px,0px);
+}
+.designationDeleteBtn{
+    transform: translateY(5px);
+}
+.role-edit{
+    transform: translate(145px,-20px);
+}
+.roleEditBtn{
+    transform: translateY(-5px);
+}
+
+@media all and (max-width:500px){
+    .edit-department{
+        transform: translate(-5px,-17px);
+    }
+    .departmentEditBtn{
+        transform:translate(0px,-5px)
+    }
+    .designation{
+        transform: translate(30px,0px);
+    }
+    .designationDeleteBtn{
+        transform: translateY(5px);
+    }
+    .role-edit{
+        transform: translate(67px,-15px);
+    }
+    .roleEditBtn{
+        transform: translateY(-5px);
+    }
+ }

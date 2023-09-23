@@ -1,0 +1,18 @@
+@media all and (max-width:500px){
+   .announce-banner{
+    width:430px;
+    height: 70px;
+    transform: translate(-39px);
+   }
+   .a-title{
+    margin-left: -40px;
+    margin-top: -30px;
+   }
+   .a-btn{
+     transform: translate(35px,-30px) !important;
+   }
+   .announcement-list{
+    width:400px;
+    transform: translate(-35px,20px);
+   }
+}
