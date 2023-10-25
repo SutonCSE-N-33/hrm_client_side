@@ -14,7 +14,7 @@ const Employees = () => {
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [defaultEmployee,setDefaultEmployee] = useState(1)
 
-  const url=`http://localhost:5000/employee`
+  const url=`https://hrm-server-side.onrender.com/employee`
   const { data: employees = [], isLoading, isError, } = useQuery({
     queryKey: ["employees"],
     queryFn: async () =>
@@ -25,7 +25,7 @@ const Employees = () => {
 
 
   const showEmployeeList = () =>{
-    fetch(`http://localhost:5000/employee`)
+    fetch(`https://hrm-server-side.onrender.com/employee`)
     .then(res=>res.json())
     .then(data=> setEmployeesList(data))
    }
@@ -52,7 +52,7 @@ const Employees = () => {
 
   //DeleteAttendance
   const handleDelete = (id) =>{
-    fetch(`http://localhost:5000/employee/${id}`, {
+    fetch(`https://hrm-server-side.onrender.com/employee/${id}`, {
       method: "DELETE", // or 'PUT'
     })
       .then((response) => response.json())

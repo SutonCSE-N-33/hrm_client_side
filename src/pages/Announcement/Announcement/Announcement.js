@@ -28,7 +28,7 @@ const Announcement = () => {
   // });
 
   const showAnnouncementList = () =>{
-    fetch(`http://localhost:5000/announcement`)
+    fetch(`https://hrm-server-side.onrender.com/announcement`)
     .then(res=>res.json())
     .then(data=> setAnnouncementList(data))
    }
@@ -41,7 +41,7 @@ const Announcement = () => {
 
   const handleDelete = (id) => {
      console.log(id);
-    fetch(`http://localhost:5000/announcement/${id}`, {
+    fetch(`https://hrm-server-side.onrender.com/announcement/${id}`, {
       method: "DELETE", // or 'PUT'
     })
       .then((response) => response.json())

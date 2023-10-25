@@ -27,13 +27,13 @@ const Home = () => {
 
 
   const showEmployeeList = () =>{
-    fetch(`http://localhost:5000/employee`)
+    fetch(`https://hrm-server-side.onrender.com/employee`)
     .then(res=>res.json())
     .then(data=> setEmployeeList(data))
    }
 
    const showAttendanceList = () =>{
-    fetch(`http://localhost:5000/attendance`)
+    fetch(`https://hrm-server-side.onrender.com/attendance`)
     .then(res=>res.json())
     .then(data=> setAttendanceList(data))
    }

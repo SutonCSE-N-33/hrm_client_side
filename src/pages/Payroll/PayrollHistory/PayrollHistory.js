@@ -9,7 +9,7 @@ const PayrollHistory = () => {
     const [histories,setHistories] =useState([])
     console.log(histories);
     useEffect(()=>{
-        fetch('http://localhost:5000/getHistory/'+id)
+        fetch('https://hrm-server-side.onrender.com/getHistory/'+id)
         .then(res => res.json())
         .then(data => {
             setHistories(data)

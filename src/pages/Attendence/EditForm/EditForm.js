@@ -35,7 +35,7 @@ const EditForm = ({setIsOpen,modalIsOpen,attendance,showAttendanceList}) => {
       outTime: data.outTime
 
   }
-    fetch(`http://localhost:5000/updateAttendance/${id}`,
+    fetch(`https://hrm-server-side.onrender.com/updateAttendance/${id}`,
     {
         headers: {
           'Accept': 'application/json',

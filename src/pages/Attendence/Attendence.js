@@ -26,7 +26,7 @@ const Attendance = () => {
 
   //Get Attendance
   const showAttendanceList = () =>{
-    fetch(`http://localhost:5000/attendance`)
+    fetch(`https://hrm-server-side.onrender.com/attendance`)
     .then(res=>res.json())
     .then(data=> setAttendances(data))
    }
@@ -37,7 +37,7 @@ const Attendance = () => {
 
    
 
-  const url = `http://localhost:5000/employee`;
+  const url = `https://hrm-server-side.onrender.com/employee`;
   const {
     data: employees = [],
     isLoading,
@@ -60,7 +60,7 @@ const Attendance = () => {
         outTime: data.outTime
 
     }
-    fetch("http://localhost:5000/attendance", {
+    fetch("https://hrm-server-side.onrender.com/attendance", {
         method: "POST", // or 'PUT'
         headers: {
           "Content-Type": "application/json",
@@ -82,7 +82,7 @@ const Attendance = () => {
 
      //DeleteAttendance
      const handleDelete = (id) =>{
-      fetch(`http://localhost:5000/attendance/${id}`, {
+      fetch(`https://hrm-server-side.onrender.com/attendance/${id}`, {
         method: "DELETE", // or 'PUT'
       })
         .then((response) => response.json())

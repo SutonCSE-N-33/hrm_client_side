@@ -8,14 +8,14 @@ const Hierarchy = () => {
       const [findData,setFindData] = useState([]);
       
       const getRequirement = () =>{
-        fetch(`http://localhost:5000/requirement`)
+        fetch(`https://hrm-server-side.onrender.com/requirement`)
         .then((data)=>data.json())
         .then(data => setRequirements(data))
       }
 
       //getDepartment
       const getDepartment = () =>{
-        fetch(`http://localhost:5000/getDepartment`)
+        fetch(`https://hrm-server-side.onrender.com/getDepartment`)
         .then((data)=>data.json())
         .then(data => setDepartments(data))
       }

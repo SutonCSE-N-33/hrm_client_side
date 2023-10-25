@@ -34,7 +34,7 @@ const UpdateEmployee = ({setIsOpen,modalIsOpen,employee,showEmployeeList}) => {
       gender: data.gender,
       role: data.role
   }
-    fetch(`http://localhost:5000/updateEmployee/${id}`,
+    fetch(`https://hrm-server-side.onrender.com/updateEmployee/${id}`,
     {
         headers: {
           'Accept': 'application/json',

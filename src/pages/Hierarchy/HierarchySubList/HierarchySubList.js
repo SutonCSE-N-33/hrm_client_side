@@ -55,7 +55,7 @@ const HierarchySubList = ({department,findData,showList}) => {
 
   //Delete Designation
   const handleDelete = (id) => {
-   fetch(`http://localhost:5000/deleteDesignation/${id}`, {
+   fetch(`https://hrm-server-side.onrender.com/deleteDesignation/${id}`, {
      method: "DELETE", // or 'PUT'
    })
      .then((response) => response.json())
@@ -72,7 +72,7 @@ const HierarchySubList = ({department,findData,showList}) => {
    //Delete Role
    const handleRoleDelete = (id) => {
     console.log(id);
-   fetch(`http://localhost:5000/deleteRole/${id}`, {
+   fetch(`https://hrm-server-side.onrender.com/deleteRole/${id}`, {
      method: "DELETE", // or 'PUT'
    })
      .then((response) => response.json())
@@ -88,7 +88,7 @@ const HierarchySubList = ({department,findData,showList}) => {
   //Delete Department
   const handleDepartmentDelete = (id) => {
     const id1 = department.department;
-   fetch(`http://localhost:5000/deleteDepartment/${id}`, {
+   fetch(`https://hrm-server-side.onrender.com/deleteDepartment/${id}`, {
      method: "DELETE", // or 'PUT'
    })
      .then((response) => response.json())
@@ -100,7 +100,7 @@ const HierarchySubList = ({department,findData,showList}) => {
        console.error("Error:", error);
      });
 
-     fetch(`http://localhost:5000/deleteDepartmentRequirement/${id1}`, {
+     fetch(`https://hrm-server-side.onrender.com/deleteDepartmentRequirement/${id1}`, {
       method: "DELETE", // or 'PUT'
     })
       .then((response) => response.json())

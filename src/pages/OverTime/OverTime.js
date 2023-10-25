@@ -28,7 +28,7 @@ const OverTime = () => {
 
   //Get Attendance
   const showOverTime = () =>{
-    fetch(`http://localhost:5000/overtime`)
+    fetch(`https://hrm-server-side.onrender.com/overtime`)
     .then(res=>res.json())
     .then(data=> setEmployeeOverTime(data))
    }
@@ -39,7 +39,7 @@ const OverTime = () => {
 
 
 
-  const url = `http://localhost:5000/employee`;
+  const url = `https://hrm-server-side.onrender.com/employee`;
   const {
     data: employees = [],
     isLoading,
@@ -61,7 +61,7 @@ const OverTime = () => {
       outTime: data.outTime,
       reason: data.reason
     };
-    fetch("http://localhost:5000/overtime", {
+    fetch("https://hrm-server-side.onrender.com/overtime", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",
@@ -82,7 +82,7 @@ const OverTime = () => {
 
   //Delete OverTime item
   const handleDelete = (id) =>{
-    fetch(`http://localhost:5000/overtime/${id}`, {
+    fetch(`https://hrm-server-side.onrender.com/overtime/${id}`, {
       method: "DELETE", // or 'PUT'
     })
       .then((response) => response.json())

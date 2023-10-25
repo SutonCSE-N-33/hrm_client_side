@@ -44,7 +44,7 @@ const AddRequirements = ({getRequirement,handleRequirement,setIsOpen,modalIsOpen
 
 
       const handleDepartment = () =>{
-        fetch("http://localhost:5000/requirementDepartment", {
+        fetch("https://hrm-server-side.onrender.com/requirementDepartment", {
         method: "POST", // or 'PUT'
         headers: {
           "Content-Type": "application/json",
@@ -64,7 +64,7 @@ const AddRequirements = ({getRequirement,handleRequirement,setIsOpen,modalIsOpen
         });
       }
       
-        fetch("http://localhost:5000/requirement", {
+        fetch("https://hrm-server-side.onrender.com/requirement", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",

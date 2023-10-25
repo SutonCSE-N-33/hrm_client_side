@@ -32,7 +32,7 @@ const EditDesignation = ({setIsOpen,modalIsOpen,data,showList}) => {
           role:data.role,
           designation:paramData.designation
         }
-        fetch(`http://localhost:5000/updateDesignation/${id}`,
+        fetch(`https://hrm-server-side.onrender.com/updateDesignation/${id}`,
         {
             headers: {
               'Accept': 'application/json',

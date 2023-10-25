@@ -32,7 +32,7 @@ const EditDepartment = ({showList,setIsOpen,modalIsOpen,data}) => {
          const requirementData = {
           department:paramData.department
         }
-        fetch(`http://localhost:5000/updateDepartment/${id}`,
+        fetch(`https://hrm-server-side.onrender.com/updateDepartment/${id}`,
         {
             headers: {
               'Accept': 'application/json',
@@ -52,7 +52,7 @@ const EditDepartment = ({showList,setIsOpen,modalIsOpen,data}) => {
           }
         })      
         
-        fetch(`http://localhost:5000/updateAllRequirement/${id1}`,
+        fetch(`https://hrm-server-side.onrender.com/updateAllRequirement/${id1}`,
         {
             headers: {
               'Accept': 'application/json',

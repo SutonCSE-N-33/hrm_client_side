@@ -18,7 +18,7 @@ const updateEmployeeData = (paymentList) =>{
         status:"Paid",
         dues:dues
     }
-      fetch(`http://localhost:5000/updateEmployeeData/${id}`,
+      fetch(`https://hrm-server-side.onrender.com/updateEmployeeData/${id}`,
       {
           headers: {
             'Accept': 'application/json',
@@ -53,7 +53,7 @@ const handlePayment = () =>{
         paymentMonth:month,
         paymentYear:year
     }
-    fetch("http://localhost:5000/payment", {
+    fetch("https://hrm-server-side.onrender.com/payment", {
         method: "POST", // or 'PUT'
         headers: {
           "Content-Type": "application/json",

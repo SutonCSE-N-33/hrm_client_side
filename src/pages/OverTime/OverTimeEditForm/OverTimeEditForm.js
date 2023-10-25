@@ -35,7 +35,7 @@ const OverTimeEditForm = ({setIsOpen,modalIsOpen,overtime,showOverTime}) => {
         reason: data.reason
 
   }
-    fetch(`http://localhost:5000/updateOvertime/${id}`,
+    fetch(`https://hrm-server-side.onrender.com/updateOvertime/${id}`,
     {
         headers: {
           'Accept': 'application/json',

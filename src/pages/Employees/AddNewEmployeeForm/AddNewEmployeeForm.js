@@ -34,14 +34,14 @@ const AddNewEmployeeForm = () => {
       // });
 
       const getRequirement = () =>{
-        fetch(`http://localhost:5000/requirement`)
+        fetch(`https://hrm-server-side.onrender.com/requirement`)
         .then((data)=>data.json())
         .then(data => setRequirements(data))
       }
 
       //getDepartment
       const getDepartment = () =>{
-        fetch(`http://localhost:5000/getDepartment`)
+        fetch(`https://hrm-server-side.onrender.com/getDepartment`)
         .then((data)=>data.json())
         .then(data => setDepartments(data))
       }
@@ -98,7 +98,7 @@ const AddNewEmployeeForm = () => {
               dues:0,
             };
             console.log('data',employeeData)
-            fetch("http://localhost:5000/employee", {
+            fetch("https://hrm-server-side.onrender.com/employee", {
               method: "POST", // or 'PUT'
               headers: {
                 "Content-Type": "application/json",

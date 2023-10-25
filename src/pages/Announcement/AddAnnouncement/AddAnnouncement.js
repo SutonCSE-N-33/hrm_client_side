@@ -25,7 +25,7 @@ const AddAnnouncement = () => {
 
     // console.log(announcement);
 
-    fetch("http://localhost:5000/announcement", {
+    fetch("https://hrm-server-side.onrender.com/announcement", {
           method: "POST", // or 'PUT'
           headers: {
             "Content-Type": "application/json",

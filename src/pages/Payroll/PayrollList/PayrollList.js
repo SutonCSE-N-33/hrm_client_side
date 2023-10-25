@@ -37,7 +37,7 @@ let button;
           salaryType:type
           
       }
-        fetch(`http://localhost:5000/updateSalaryType/${id}`,
+        fetch(`https://hrm-server-side.onrender.com/updateSalaryType/${id}`,
         {
             headers: {
               'Accept': 'application/json',

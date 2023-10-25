@@ -20,7 +20,7 @@ const Payroll = () => {
  
   const getEmployee = () => {
    
-    fetch(`http://localhost:5000/employee`)
+    fetch(`https://hrm-server-side.onrender.com/employee`)
       .then((res) => res.json())
       .then((data) => setEmployees(data));
   };

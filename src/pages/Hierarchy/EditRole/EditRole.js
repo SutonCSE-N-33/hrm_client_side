@@ -33,7 +33,7 @@ const EditRole = ({setIsOpen,modalIsOpen,data,showList}) => {
           designation:data.designation
         }
         console.log(requirementData,id)
-        fetch(`http://localhost:5000/updateRole/${id}`,
+        fetch(`https://hrm-server-side.onrender.com/updateRole/${id}`,
         {
             headers: {
               'Accept': 'application/json',

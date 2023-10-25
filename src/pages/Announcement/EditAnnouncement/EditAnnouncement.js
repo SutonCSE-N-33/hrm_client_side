@@ -37,7 +37,7 @@ const EditAnnouncement = ({setIsOpen,modalIsOpen,announcement,showAnnouncementLi
         description: data.description,
        
       };
-    fetch(`http://localhost:5000/updateAnnouncement/${id}`,
+    fetch(`https://hrm-server-side.onrender.com/updateAnnouncement/${id}`,
     {
         headers: {
           'Accept': 'application/json',
