@@ -25,6 +25,8 @@ const EditDesignation = ({setIsOpen,modalIsOpen,data,showList}) => {
 
      //Edit Designation
      const onSubmit = paramData => {
+         console.log("paramData",paramData)
+         console.log("data",data)
          const id = data._id;
   
          const requirementData = {

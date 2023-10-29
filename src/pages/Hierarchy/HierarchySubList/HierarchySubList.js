@@ -19,10 +19,12 @@ const HierarchySubList = ({department,findData,showList}) => {
   const [defaultRole,setDefaultRole] = useState({})
   const [defaultDepartment,setDefaultDepartment] = useState({})
   const [decision,setDecision] = useState('')
+  console.log('designation',designation)
 
 
 
   const handleEdit=(param,require) => {
+    console.log('param',param)
     if(require === 'designation')
     {
       setIsOpen(true);

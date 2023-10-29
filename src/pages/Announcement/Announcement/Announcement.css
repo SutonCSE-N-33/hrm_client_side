@@ -15,4 +15,11 @@
     width:400px;
     transform: translate(-35px,20px);
    }
+
+
+   /* userAnnouncementPage */
+   .h-title{
+    margin-left: 90px;
+   }
+   
 }

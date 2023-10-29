@@ -12,6 +12,7 @@ import Attendance from "../pages/Attendence/Attendence";
 import Payroll from "../pages/Payroll/Payroll/Payroll";
 import PayrollHistory from "../pages/Payroll/PayrollHistory/PayrollHistory";
 import Hierarchy from "../pages/Hierarchy/Hierarchy";
+import UserAnnouncementList from "../pages/Announcement/UserAnnouncementList/UserAnnouncementList";
 
 export const router = createBrowserRouter([
   {
@@ -34,6 +35,7 @@ export const router = createBrowserRouter([
         path: "/admin/announcement",
         element: <Announcement></Announcement>,
       },
+     
       {
         path: "/admin/addannouncement",
         element: <AddAnnouncement></AddAnnouncement>,
@@ -61,7 +63,11 @@ export const router = createBrowserRouter([
     ],
   },
   {
-    path: "/",
-    element: <LoginPage></LoginPage>
+    path: "/login",
+    element: <LoginPage></LoginPage>,
   },
+  {
+    path: "/",
+    element: <UserAnnouncementList></UserAnnouncementList>,
+  }, 
 ]);

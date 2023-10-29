@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/AuthProvider/AuthProvider";
+import HomeHeader from "../Shared/Header/HomeHeader";
 
 const LoginPage = () => {
   const { loginUser } = useContext(AuthContext);
@@ -34,6 +35,7 @@ const LoginPage = () => {
   // console.log(loginUser);
   return (
     <div>
+    <HomeHeader></HomeHeader>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col">
           <div className="text-center lg:text-left">
